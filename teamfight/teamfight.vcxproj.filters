@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GameLoop.cpp" />
+    <ClCompile Include="Destroyer.cpp">
+      <Filter>Character\Dealer</Filter>
+    </ClCompile>
+    <ClCompile Include="Assassin.cpp">
+      <Filter>Character\Dealer</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiledWarrior.cpp">
+      <Filter>Character\Tanker</Filter>
+    </ClCompile>
+    <ClCompile Include="BraveGuardian.cpp">
+      <Filter>Character\Tanker</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonSpirit.cpp">
+      <Filter>Character\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkSorcerer.cpp">
+      <Filter>Character\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="enums.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueTeam.cpp">
+      <Filter>Team</Filter>
+    </ClCompile>
+    <ClCompile Include="RedTeam.cpp">
+      <Filter>Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Team</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamManager.cpp">
+      <Filter>Team</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameLoop.h" />
+    <ClInclude Include="Destroyer.h">
+      <Filter>Character\Dealer</Filter>
+    </ClInclude>
+    <ClInclude Include="Assassin.h">
+      <Filter>Character\Dealer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiledWarrior.h">
+      <Filter>Character\Tanker</Filter>
+    </ClInclude>
+    <ClInclude Include="BraveGuardian.h">
+      <Filter>Character\Tanker</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonSpirit.h">
+      <Filter>Character\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkSorcerer.h">
+      <Filter>Character\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueTeam.h">
+      <Filter>Team</Filter>
+    </ClInclude>
+    <ClInclude Include="RedTeam.h">
+      <Filter>Team</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Team</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamManager.h">
+      <Filter>Team</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Character">
+      <UniqueIdentifier>{79633df6-e360-450f-8f56-7aafaf4da495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Tanker">
+      <UniqueIdentifier>{13325aea-c282-4ddf-be38-9e8c2ef6f4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Controller">
+      <UniqueIdentifier>{4bbe8197-9262-41f6-87df-0576bbcb55c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Dealer">
+      <UniqueIdentifier>{f6fc60c9-7a2c-4ab2-a656-3ae810995662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{09ff8a24-b2c3-4ae1-819e-ea41b0a63111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Team">
+      <UniqueIdentifier>{5c9e0abd-fa5a-4d78-8027-f5b3ceaca601}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
